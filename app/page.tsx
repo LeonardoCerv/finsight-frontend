@@ -21,7 +21,7 @@ export default function Home() {
           {/* Chat + Graphs Section - 3/4 of the page (right side) */}
           <div className="w-full h-full flex flex-col space-y-2">
             {/* Chat Input at the top - compact */}
-            <div className="max-h-40 overflow-hidden">
+            <div className="max-h-100 overflow-hidden">
               <CompactAIChatAssistant />
             </div>
 
